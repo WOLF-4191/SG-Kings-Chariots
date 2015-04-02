@@ -12,6 +12,8 @@ class Base(LoadOut):
 		'ItemMap',
 		'ItemCompass',
 		'tf_microdagr',
+		'tf_rf7800str_1',
+		'AGM_NVG_Gen4',
 	]
 	
 	class Uniform:

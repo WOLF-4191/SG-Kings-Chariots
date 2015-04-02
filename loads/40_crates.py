@@ -45,8 +45,8 @@ class cdf_explosives(Crate):
 		['RDS_AGS30_Tripod_Bag', 10],
 	]
 
-class cdf_launchers(Crate):
-	title = 'CDF Launchers and Warheads'
+class 40_launchers(Crate):
+	title = '40 Commando Launchers and Warheads'
  	base = 'VTN_WPNE_SN_BOX'
 	weapons = [
 		['rhs_weap_rpg7', 10],
@@ -60,22 +60,21 @@ class cdf_launchers(Crate):
 		['rhs_rshg2_mag', 100],
 	]
 
-class cdf_weapons(Crate):
-	title = 'CDF Rifles and Ammo'
+class 40_weapons(Crate):
+	title = '40 Commando Rifles and Ammo'
  	base = 'VTN_WPNE_LMG_BOX'
 	weapons = [
-		['VTN_AK74_76', 10],
-		['VTN_AKM', 10],
-		['VTN_AK74_GP25', 5],
-		['VTN_AKS74U_B', 5],
-		['VTN_PKP', 5],
+		['kio_l85a2', 10],
+		['kio_l85a2_ugl', 5],
+		['Trixie_L7A2', 5],
+		['RH_g17', 20],
 	]
+	optics = [
+	    ['optic_Hamr', 20],
+	]	
 	magazines = [
-		['VTN_AK74_30b_SC', 500],
-		['VTN_AK74_30b_TRC', 500],
-		['VTN_AKM_30b_SC', 500],
-		['VTN_AKM_30b_TRC', 500],
-		['VTN_PK_100s_SC', 200],
-		['VTN_PK_100s_TRC', 200],
+		['30rnd_556_magazine', 500],
+		['Trixie_100Rnd', 200],
+		['RH_17Rnd_9x19_g17', 200],
 	]
 
