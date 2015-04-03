@@ -13,7 +13,7 @@ class Base(LoadOut):
 		'ItemCompass',
 		'tf_microdagr',
 		'tf_rf7800str_1',
-		'AGM_NVG_Gen4',
+		'STKR_HMNVS',
 	]
 	
 	class Uniform:
