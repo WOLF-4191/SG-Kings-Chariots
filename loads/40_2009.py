@@ -7,7 +7,7 @@ class 40_base(base.Base):
 		'ItemMap',
 		'ItemCompass',
 		'tf_rf7800str_1',
-		'AGM_NVG_Gen4',
+		'STKR_HMNVS',
 	]	
 	class HandGun:
 		weapon = 'RH_g17'
