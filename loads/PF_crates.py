@@ -78,3 +78,6 @@ class 40_weapons(Crate):
 		['RH_17Rnd_9x19_g17', 200],
 	]
 
+class 40_Radios(Crate):
+	title = '40 Commando Radios and Misc'
+ 	base = 'VTN_WPNE_LMG_BOX'

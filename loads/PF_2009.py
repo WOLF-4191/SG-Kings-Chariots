@@ -105,7 +105,7 @@ class 40_ftl(40_rifleman):
 		type = 'BAF_Soldier_2_Vest_D_DG1'
 		items = 40_rifleman.Vest.items 
 		]
-    class Uniform(40_rifleman.Uniform):
+	class Uniform(40_rifleman.Uniform):
 		type = 'U_mas_uk_B_IndUniform1_d'
 		items = 40_rifleman.Uniform.items + [
 			['cw_item_9liner_medivac', 1],
