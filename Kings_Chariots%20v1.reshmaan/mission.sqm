@@ -55,19 +55,22 @@ class Mission
 	randomSeed=26339;
 	class Intel
 	{
+		briefingName="Kings Charriots V1";
+		overviewText="Back to Reshmann ";
+		resistanceWest=0;
 		startWeather=0.407745;
-		startFog=0.00095492002;
-		startWind=0.40000001;
+		startFog=0.00095491996;
+		startWind=0.39999998;
 		startWindDir=358.64801;
-		startWaves=0.1;
+		startWaves=0.099999994;
 		forecastWeather=0.407745;
-		forecastWind=0.40000001;
-		forecastWaves=0.1;
+		forecastWind=0.39999998;
+		forecastWaves=0.099999994;
 		rainForced=1;
 		lightningsForced=1;
 		wavesForced=1;
 		windForced=1;
-		year=2011;
+		year=2013;
 		month=6;
 		day=11;
 		hour=12;
@@ -6947,9 +6950,9 @@ class Mission
 		};
 		class Item3
 		{
-			position[]={4070.2947,138.96762,18619.223};
+			position[]={4070.2947,138.96762,18625.145};
 			name="curatorInterface_mil_dot_2190_3";
-			text="40";
+			text="20th AE";
 			type="mil_dot";
 		};
 		class Item4
@@ -6970,7 +6973,7 @@ class Mission
 		{
 			position[]={4428.54,0,18052.301};
 			name="curatorInterface_mil_dot_2190_6";
-			text="CHF";
+			text="ANA";
 			type="mil_dot";
 		};
 		class Item7
