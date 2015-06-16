@@ -1,38 +1,36 @@
 from p4a.loadout import Crate
 from base import Base
 
-class soar_pilot(Base):
-	headgear = 'H_ZSH7V'
-	items = Base.items + ['tf_fadak']
+class CAD_pilot(Base):
+	headgear = 'H_mas_uk_PilotHelmetHeli_B'
+	items = Base.items + ['tf_fadak'] + ['ItemGPS'] + ['A3_GPNVG18b_BLK_F']
 
 	class Primary:
-		weapon = 'VTN_AKS74U_79'
-		suppressor = 'VTN_MUZZLE_FS_AKS74U'
-		mags = [['VTN_AK74_30b_TRC', 30],]
+		weapon = 'arifle_mas_mp5'
+		optic = 'optic_Holosight'
+		mags = [['30Rnd_mas_9x21_Stanag', 30],]
 
 	class HandGun:
-		weapon = 'RH_mak'
-		rail = 'RH_pmIR'
-		mags = [['RH_8Rnd_9x18_Mak', 8]]
+		weapon = 'RH_g18'
+		mags = [['RH_33Rnd_9x19_g18', 33]]
 
 	class Uniform:
-		type = 'VTN_VVS_VKK15'
+		type = 'U_mas_uk_B_IndUniform1_d'
 		items = Base.Uniform.items + [
-			['VTN_AK74_30b_TRC', 2],
-			['RH_8Rnd_9x18_Mak', 2],
+			['30Rnd_mas_9x21_Stanag', 2],
+			['RH_33Rnd_9x19_g18', 2],
 		]
 	class Vest:
-		type = 'rhs_vest_commander'
+		type = 'V_mas_uk_TacVest_p'
 		items = [
-			['VTN_PNV10T', 1],
-			['VTN_NSP_GREEN', 2],
 			['tf_fadak', 1],
 		]
 
-class soar_crew(soar_pilot):
-	headgear = 'H_ZSH7VS'
+class CAD_crew(soar_pilot):
+	headgear = 'H_CrewHelmetHeli_O'
 
-class soar_vehicle(Crate):
+
+class CAD_vehicle(Crate):
 	weapons = [
 		['VTN_SP81', 1],
 		['VTN_RSP30_RED', 5],
